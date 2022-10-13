@@ -1,0 +1,114 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginationItem {
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #dedede;
+  color: #000000;
+  border-radius: 5px;
+  box-shadow: 2px 4px 20px 0 rgba(0, 0, 0, 0.08);
+  margin-left: 12px;
+
+  /* background: #fff;
+  border: 2px solid #666;
+  padding: 10px 15px;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  position: relative;
+  margin: 0 5px;
+  cursor: pointer; */
+}
+
+.paginationItem span {
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+  transform: translate(-50%, -50%);
+}
+
+.prev,
+.next {
+  background: #fff;
+  border: none;
+  padding: 10px;
+  color: blue;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.paginationItem.active {
+  border: 1px solid #888;
+  color: #888;
+  pointer-events: none;
+}
+
+.prev.disabled,
+.next.disabled {
+  pointer-events: none;
+  box-shadow: none;
+  color: #999;
+}
+
+.pager-controls-content .pageNumbers {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.pager-controls-content .pageNumbers li:first-child,
+.pageNumbers li:nth-last-child(1) {
+  padding: 9px 0px;
+  border: unset;
+}
+.pager-controls-content .pageNumbers li:first-child {
+  margin-left: 0;
+}
+.pager-controls-content .pageNumbers li {
+  padding: 10px;
+  border: 1px solid #dedede;
+  cursor: pointer;
+  padding: 12px 17px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  width: 42px;
+  height: 42px;
+  border-radius: 5px;
+  margin-left: 18px;
+}
+.pager-controls-content .pageNumbers li.active,
+.pager-controls-content .pageNumbers li:hover {
+  background-color: #1aaef4;
+  color: #ffffff;
+  border-color: #1aaef4;
+}
+.pager-controls-content .pageNumbers li:hover:first-child,
+.pager-controls-content .pageNumbers li:hover:nth-last-child(1) {
+  background-color: unset;
+  color: unset;
+  border-color: unset;
+  opacity: 0.8;
+}
+
+.searchpagewraper {
+  padding: 100px 0px;
+}
+
+.searchpagewraper .banner-search-bar {
+  width: 94%;
+}
+
+.paginationItem.active {
+  border-color: #1aaef4;
+  color: #ffffff;
+  pointer-events: none;
+  background-color: #1aaef4;
+}

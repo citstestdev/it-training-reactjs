@@ -1,0 +1,18 @@
+<svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <mask id="7p6rejbyfa" fill="#fff">
+        <rect x=".69" y=".689" width="9.375" height="9.375" rx="1.5"/>
+    </mask>
+    <rect x=".69" y=".689" width="9.375" height="9.375" rx="1.5" stroke="#fff" stroke-width="4" mask="url(#7p6rejbyfa)"/>
+    <mask id="c2v3qv5yab" fill="#fff">
+        <rect x="11.627" y=".689" width="9.375" height="9.375" rx="1.5"/>
+    </mask>
+    <rect x="11.627" y=".689" width="9.375" height="9.375" rx="1.5" stroke="#fff" stroke-width="4" mask="url(#c2v3qv5yab)"/>
+    <mask id="ni9mysvpyc" fill="#fff">
+        <rect x=".69" y="11.626" width="9.375" height="9.375" rx="1.5"/>
+    </mask>
+    <rect x=".69" y="11.626" width="9.375" height="9.375" rx="1.5" stroke="#fff" stroke-width="4" mask="url(#ni9mysvpyc)"/>
+    <mask id="tyqbn5jr4d" fill="#fff">
+        <rect x="11.627" y="11.626" width="9.375" height="9.375" rx="1.5"/>
+    </mask>
+    <rect x="11.627" y="11.626" width="9.375" height="9.375" rx="1.5" stroke="#fff" stroke-width="4" mask="url(#tyqbn5jr4d)"/>
+</svg>

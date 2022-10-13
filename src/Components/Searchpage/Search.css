@@ -1,0 +1,16 @@
+table {
+  border: 2px solid forestgreen;
+  width: 100%;
+  height: 500px;
+  margin: 10px auto 10px auto;
+}
+
+th {
+  border-bottom: 1px solid black;
+  margin: 10px auto 10px auto;
+}
+
+td {
+  border: 1px solid black;
+  margin: 10px auto 10px auto;
+}

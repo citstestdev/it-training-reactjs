@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1919px) {
+  
+}
+/*1680*/
+@media only screen and (max-width: 1679px) {
+  
+}
+/*1440*/
+@media only screen and (max-width: 1439px) {
+  
+}
+/*1366*/
+@media only screen and (max-width: 1365px) {
+  
+}
+/*1200*/
+@media only screen and (max-width: 1199px) {
+  
+}
+/*1024*/
+@media only screen and (max-width: 1023px) {
+  
+}
+/*980*/
+@media only screen and (max-width: 979px) {
+  
+}
+/*768*/
+@media only screen and (max-width: 767px) {
+  
+}
+/*650*/
+@media only screen and (max-width: 649px) {
+  
+}
+/*480*/
+@media only screen and (max-width: 479px) {
+  
+}
+/*414*/
+@media only screen and (max-width: 413px) {
+  
+}
+/*375*/
+@media only screen and (max-width: 374px) {
+  
+}
