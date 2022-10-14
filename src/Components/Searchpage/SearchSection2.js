@@ -5,7 +5,7 @@ import "../Testing/Hello.css";
 
 export default function SearchSection2(props) {
   // const [posts, setPosts] = useState([]);
-  const [error, setError] = useState("");
+  const [error] = useState("");
 
   function Post(props) {
     const { heading, description, image, imagemiddile } = props.data;
@@ -71,7 +71,7 @@ export default function SearchSection2(props) {
                 <div className="popup-bg-wr"></div>
                 <div className="popup-content">
                   <div className="close-btn">
-                    <a href="javascript:;">X</a>
+                    <a href={() => false}>X</a>
                   </div>
                 </div>
               </div>

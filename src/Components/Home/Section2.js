@@ -113,7 +113,10 @@ function Section2() {
                     <div className="it-training-card-detail">
                       <div className="it-training-card-heading">
                         <h6>
-                          <a href={"/courses/" + post.slugname}>
+                          <a
+                            href={"/courses/" + post.slugname}
+                            style={{ textTransform: "capitalize" }}
+                          >
                             {post.heading}
                           </a>
                         </h6>

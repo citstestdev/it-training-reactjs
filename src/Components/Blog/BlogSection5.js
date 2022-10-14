@@ -15,7 +15,7 @@ function BlogSection5() {
               data-wow-delay="0.25s"
             >
               <h4>
-                <a href="#">JAVA</a>
+                <a href={() => false}>JAVA</a>
               </h4>
             </div>
             <div
@@ -24,7 +24,7 @@ function BlogSection5() {
               data-wow-delay="0.45s"
             >
               <h4>
-                <a href="#">PHP</a>
+                <a href={() => false}>PHP</a>
               </h4>
             </div>
             <div
@@ -33,7 +33,7 @@ function BlogSection5() {
               data-wow-delay="0.65s"
             >
               <h4>
-                <a href="#">Digital Presence</a>
+                <a href={() => false}>Digital Presence</a>
               </h4>
             </div>
             <div
@@ -42,7 +42,7 @@ function BlogSection5() {
               data-wow-delay="0.65s"
             >
               <h4>
-                <a href="#">Graphic Designing</a>
+                <a href={() => false}>Graphic Designing</a>
               </h4>
             </div>
             <div
@@ -51,7 +51,7 @@ function BlogSection5() {
               data-wow-delay="0.85s"
             >
               <h4>
-                <a href="#">HTML</a>
+                <a href={() => false}>HTML</a>
               </h4>
             </div>
             <div
@@ -60,7 +60,7 @@ function BlogSection5() {
               data-wow-delay="1.05s"
             >
               <h4>
-                <a href="#">UI UX</a>
+                <a href={() => false}>UI UX</a>
               </h4>
             </div>
             <div
@@ -69,7 +69,7 @@ function BlogSection5() {
               data-wow-delay="1.25s"
             >
               <h4>
-                <a href="#">Interview preparation</a>
+                <a href={() => false}>Interview preparation</a>
               </h4>
             </div>
           </div>

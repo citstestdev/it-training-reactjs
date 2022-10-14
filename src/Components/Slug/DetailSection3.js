@@ -59,7 +59,7 @@ function DetailSection3() {
                   </div>
                   <div className="it-training-card-btn related-courses-btn">
                     <h6>
-                      <a href="#">Details</a>
+                      <a href={() => false}>Details</a>
                     </h6>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ function DetailSection3() {
                   </div>
                   <div className="it-training-card-btn related-courses-btn">
                     <h6>
-                      <a href="#">Details</a>
+                      <a href={() => false}>Details</a>
                     </h6>
                   </div>
                 </div>
@@ -159,7 +159,7 @@ function DetailSection3() {
                   </div>
                   <div className="it-training-card-btn related-courses-btn">
                     <h6>
-                      <a href="#">Details</a>
+                      <a href={() => false}>Details</a>
                     </h6>
                   </div>
                 </div>
@@ -209,7 +209,7 @@ function DetailSection3() {
                   </div>
                   <div className="it-training-card-btn related-courses-btn">
                     <h6>
-                      <a href="#">Details</a>
+                      <a href={() => false}>Details</a>
                     </h6>
                   </div>
                 </div>

@@ -35,7 +35,7 @@ function SlugSingle2() {
             <div className="course-detail-left-blk left">
               <div className="course-name">
                 <a
-                  href="#"
+                  href={() => false}
                   className="card-bg-green"
                   style={{ textTransform: "capitalize" }}
                 >
@@ -67,16 +67,16 @@ function SlugSingle2() {
                         ? backendurl + "uploadimg/400x250/" + data.imagemiddile
                         : "/assets/dummy/dummy.png"
                     }
-                    alt="course-single-image"
+                    alt="course-single"
                     width="100%"
                     height="400px"
                   />
                 </figure>
               </div>
               <div className="course-detail-btns">
-                <a href="#">Description</a>
-                <a href="#">FAQ’s</a>
-                <a href="#">Related Courses</a>
+                <a href={() => false}>Description</a>
+                <a href={() => false}>FAQ’s</a>
+                <a href={() => false}>Related Courses</a>
               </div>
               <div className="course-overview">
                 <div
@@ -195,7 +195,7 @@ function SlugSingle2() {
                                   post.imagemiddile
                                 : "/assets/dummy/dummy.png"
                             }
-                            alt="course-single-image"
+                            alt="course-single"
                           />
                         </figure>
                       </div>

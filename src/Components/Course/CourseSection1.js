@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 import backendurl from "../../constant";
 
 function CourseSection1() {
@@ -23,13 +23,10 @@ function CourseSection1() {
             {data.banner !== "" ? (
               <img
                 src={backendurl + "uploads/" + data.banner}
-                alt="course-banner-image"
+                alt="course-banner"
               />
             ) : (
-              <img
-                src="assets/images/courses-banner.jpg"
-                alt="course-banner-image"
-              />
+              <img src="assets/images/courses-banner.jpg" alt="course-banner" />
             )}
           </figure>
         </div>
@@ -44,11 +41,11 @@ function CourseSection1() {
                 <h4>{title.replace("-", " ").toUpperCase()}</h4>
               </div>
               <div className="page-banner-links">
-                <a href="index.html">Home</a>
+                <a href="/home">Home</a>
                 <span>
                   <i className="fa-solid fa-chevron-right"></i>
                 </span>
-                <a href="javascript:;">{title}</a>
+                <a href={() => false}>{title}</a>
               </div>
             </div>
           </div>

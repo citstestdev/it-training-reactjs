@@ -110,7 +110,7 @@ function GetEnquiry() {
   return (
     <>
       <div className="back-to-top align-center">
-        <a href="javascript:;">
+        <a href={() => false}>
           <i className="fa-solid fa-angles-up fa-bounce"></i>
         </a>
         <h4>Back to top</h4>
@@ -342,7 +342,7 @@ function GetEnquiry() {
                     />
                   </div>
                   <div className="popup-form-cross-btn">
-                    <a href="javascript:;">
+                    <a href={() => false}>
                       <i className="fa-solid fa-xmark"></i>
                     </a>
                   </div>

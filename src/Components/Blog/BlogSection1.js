@@ -10,10 +10,7 @@ function BlogSection1() {
       <div className="page-banner">
         <div className="page-banner-img">
           <figure>
-            <img
-              src="assets/images/courses-banner.jpg"
-              alt="course-banner-image"
-            />
+            <img src="assets/images/courses-banner.jpg" alt="course-banner" />
           </figure>
         </div>
         <div className="page-banner-con">
@@ -27,11 +24,11 @@ function BlogSection1() {
                 <h4>{title.replace("-", " ").toUpperCase()}</h4>
               </div>
               <div className="page-banner-links">
-                <a href="index.html">Home</a>
+                <a href="/home">Home</a>
                 <span>
                   <i className="fa-solid fa-chevron-right"></i>
                 </span>
-                <a href="javascript:;">{title}</a>
+                <a href={() => false}>{title}</a>
               </div>
             </div>
           </div>

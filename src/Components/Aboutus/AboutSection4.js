@@ -145,7 +145,7 @@ function AboutSection4() {
             <div className="popup-bg-wr"></div>
             <div className="popup-content">
               <div className="close-btn">
-                <a href="javascript:;">X</a>
+                <a href={() => false}>X</a>
               </div>
               <div className="popup-video">
                 <iframe

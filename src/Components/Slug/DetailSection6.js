@@ -21,7 +21,7 @@ function DetailSection6(props) {
               key={post._id}
             >
               <div className="course-accordion-btn">
-                <a href="javascript:;">{post.question}</a>
+                <a href={() => false}>{post.question}</a>
                 <div className="course-accordion-icon">
                   <i className="fa-solid fa-chevron-down"></i>
                 </div>

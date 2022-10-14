@@ -13,10 +13,7 @@ function DetailSection1() {
       <div className="page-banner">
         <div className="page-banner-img">
           <figure>
-            <img
-              src="/assets/images/courses-banner.jpg"
-              alt="course-banner-image"
-            />
+            <img src="/assets/images/courses-banner.jpg" alt="course-banner" />
           </figure>
         </div>
         <div className="page-banner-con">
@@ -30,15 +27,15 @@ function DetailSection1() {
                 <h4>Courses</h4>
               </div>
               <div className="page-banner-links">
-                <a href="index.html">Home</a>
+                <a href="/home">Home</a>
                 <span>
                   <i className="fa-solid fa-chevron-right"></i>
                 </span>
-                <a href="javascript:;">Courses</a>
+                <a href="/courses">Courses</a>
                 <span>
                   <i className="fa-solid fa-chevron-right"></i>
                 </span>
-                <a href="javascript:;">{data.heading}</a>
+                <a href={() => false}>{data.heading}</a>
               </div>
             </div>
           </div>

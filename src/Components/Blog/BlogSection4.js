@@ -26,7 +26,7 @@ function BlogSection4() {
             <div className="recent-courses-tag-content" key={post._id}>
               <div className="recent-courses-tag-img">
                 <figure className={"testimonial-" + post.color + "-bg"}>
-                  <a href="#">
+                  <a href={() => false}>
                     <img
                       src={backendurl + "uploads/" + post.image}
                       alt="blog-our-course-categories-01"

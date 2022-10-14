@@ -13,10 +13,7 @@ function BlogBanner() {
       <div className="page-banner">
         <div className="page-banner-img">
           <figure>
-            <img
-              src="/assets/images/courses-banner.jpg"
-              alt="course-banner-image"
-            />
+            <img src="/assets/images/courses-banner.jpg" alt="course-banner" />
           </figure>
         </div>
         <div className="page-banner-con">
@@ -30,15 +27,15 @@ function BlogBanner() {
                 <h4>BLOG</h4>
               </div>
               <div className="page-banner-links">
-                <a href="index.html">Home</a>
+                <a href="/home">Home</a>
                 <span>
                   <i className="fa-solid fa-chevron-right"></i>
                 </span>
-                <a href="javascript:;">blog</a>
+                <a href={() => false}>blog</a>
                 <span>
                   <i className="fa-solid fa-chevron-right"></i>
                 </span>
-                <a href="javascript:;">{single.heading}</a>
+                <a href={() => false}>{single.heading}</a>
               </div>
             </div>
           </div>

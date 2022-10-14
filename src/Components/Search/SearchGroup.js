@@ -58,11 +58,11 @@ class SearchGroup extends React.Component {
                     <h4>Search</h4>
                   </div>
                   <div className="page-banner-links">
-                    <a href="index.html">Home</a>
+                    <a href="/home">Home</a>
                     <span>
                       <i className="fa-solid fa-chevron-right"></i>
                     </span>
-                    <a href="javascript:;">Search</a>
+                    <a href={() => false}>Search</a>
                   </div>
                 </div>
               </div>

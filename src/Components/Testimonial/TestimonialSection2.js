@@ -28,8 +28,8 @@ function TestimonialSection2() {
                   data-wow-delay="0.15s"
                   key={post._id}
                 >
-                  <p style={{ display: "none" }}>{i == 1 && (flag = index)}</p>
-                  {flag == 0 && (
+                  <p style={{ display: "none" }}>{i === 1 && (flag = index)}</p>
+                  {flag === 0 && (
                     <figure className="testimonial-yellow-bg testimonial-quote-img">
                       <img
                         src="assets/images/testimonial-card-yellow-quote.svg"
@@ -37,7 +37,7 @@ function TestimonialSection2() {
                       />
                     </figure>
                   )}
-                  {flag == 1 && (
+                  {flag === 1 && (
                     <figure className="testimonial-green-bg testimonial-quote-img">
                       <img
                         src="assets/images/testimonial-card-green-quote.svg"
@@ -45,7 +45,7 @@ function TestimonialSection2() {
                       />
                     </figure>
                   )}
-                  {flag == 2 && (
+                  {flag === 2 && (
                     <figure className="testimonial-violet-bg testimonial-quote-img">
                       <img
                         src="assets/images/testimonial-card-violet-quote.svg"
@@ -53,7 +53,7 @@ function TestimonialSection2() {
                       />
                     </figure>
                   )}
-                  {flag == 0 && (
+                  {flag === 0 && (
                     <div className="card-hover card-hover-yellow">
                       <div className="testimonials-yellow-name">
                         <h6>{post.name}</h6>
@@ -62,7 +62,7 @@ function TestimonialSection2() {
                         <div className="testimonials-card-front">
                           <div className="testimonials-course-name page-mini-heading">
                             <a
-                              href="#"
+                              href={() => false}
                               className="testimonial-yellow-bg testimonial-yellow-color"
                             >
                               {post.designation}
@@ -85,7 +85,7 @@ function TestimonialSection2() {
                                       post.imagemiddile
                                     : "images/user.png"
                                 }
-                                alt="testimonials-card-img-1"
+                                alt="testimonials-card-1"
                               />
                             </figure>
                           </div>
@@ -99,7 +99,7 @@ function TestimonialSection2() {
                     </div>
                   )}
 
-                  {flag == 1 && (
+                  {flag === 1 && (
                     <div className="card-hover card-hover-green">
                       <div className="testimonials-green-name">
                         <h6>{post.name}</h6>
@@ -108,7 +108,7 @@ function TestimonialSection2() {
                         <div className="testimonials-card-front">
                           <div className="testimonials-course-name page-mini-heading">
                             <a
-                              href="#"
+                              href={() => false}
                               className="testimonial-green-bg testimonial-green-color"
                             >
                               {post.designation}
@@ -122,7 +122,7 @@ function TestimonialSection2() {
                                   "uploadimg/400x250/" +
                                   post.imagemiddile
                                 }
-                                alt="testimonials-card-img-1"
+                                alt="testimonials-card-1"
                               />
                             </figure>
                           </div>
@@ -137,7 +137,7 @@ function TestimonialSection2() {
                     </div>
                   )}
 
-                  {flag == 2 && (
+                  {flag === 2 && (
                     <div className="card-hover card-hover-violet">
                       <div className="testimonials-violet-name">
                         <h6>{post.name}</h6>
@@ -146,7 +146,7 @@ function TestimonialSection2() {
                         <div className="testimonials-card-front">
                           <div className="testimonials-course-name page-mini-heading">
                             <a
-                              href="#"
+                              href={() => false}
                               className="testimonial-violet-bg testimonial-violet-color"
                             >
                               {post.designation}
@@ -160,7 +160,7 @@ function TestimonialSection2() {
                                   "uploadimg/400x250/" +
                                   post.imagemiddile
                                 }
-                                alt="testimonials-card-img-1"
+                                alt="testimonials-card-1"
                               />
                             </figure>
                           </div>
@@ -173,9 +173,9 @@ function TestimonialSection2() {
                       </div>
                     </div>
                   )}
-                  <p style={{ display: "none" }}>{2 == flag && (i = 2)}</p>
+                  <p style={{ display: "none" }}>{2 === flag && (i = 2)}</p>
                   <p style={{ display: "none" }}>
-                    {2 == flag ? (flag = 0) : flag++}
+                    {2 === flag ? (flag = 0) : flag++}
                   </p>
                 </div>
               ))}

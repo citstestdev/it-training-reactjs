@@ -7,7 +7,7 @@ function CourseSection2() {
   const [data, setData] = useState([]);
   const [cfilter, setFilter] = useState("");
   const [isDone, setIsDone] = useState(true);
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
   const [cat, setCategory] = useState([]);
 
   useEffect(() => {
@@ -52,7 +52,7 @@ function CourseSection2() {
             </div>
             <div className="showing-numbers-blk right">
               <div className="courses-grid-img filter-right-blk course-grid-list-img active">
-                <a href="javascript:;">
+                <a href={() => false}>
                   <figure className="course-grid-img">
                     <img
                       src="assets/images/course-grid-image.svg"
@@ -62,7 +62,7 @@ function CourseSection2() {
                 </a>
               </div>
               <div className="course-download-img filter-right-blk">
-                <a href="javascript:;">
+                <a href={() => false}>
                   <figure className="course-grid-img">
                     <img
                       src="assets/images/filter-download.svg"

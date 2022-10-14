@@ -26,7 +26,7 @@ function DetailSection4() {
           {data.map((post, index) => (
             <div className="course-related-blk">
               <figure>
-                <a href="#">
+                <a href={() => false}>
                   <img
                     src={
                       post.imagemiddile

@@ -297,7 +297,7 @@ function Section1(props) {
                 </div>
                 <p>
                   by submitting this form, you are agreeing to the
-                  <a href="#"> privacy policy</a>
+                  <a href={() => false}> privacy policy</a>
                 </p>
               </form>
               <br></br>

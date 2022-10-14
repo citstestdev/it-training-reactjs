@@ -26,7 +26,7 @@ function Section7() {
           data-wow-delat="0.25s"
         >
           <figure>
-            <img src="assets/images/our-blogs.jpg" alt="our-blogs-image" />
+            <img src="assets/images/our-blogs.jpg" alt="our-blogs" />
           </figure>
         </div>
         <div className="latest-blog-con">
@@ -53,7 +53,7 @@ function Section7() {
                   <figure>
                     <img
                       src={backendurl + "uploads/" + data.image}
-                      alt="our-blogs-image"
+                      alt="our-blogs"
                     />
                   </figure>
                 </div>

@@ -94,7 +94,7 @@ function DetailSection5(props) {
                     props.shortdetail.imagemiddile
                   : "/assets/dummy/dummy.png"
               }
-              alt="course-single-image"
+              alt="course-single"
             />
           </figure>
         </div>
@@ -201,7 +201,7 @@ function DetailSection5(props) {
               </div>
             </form>
             <br></br>
-            {message == true && (
+            {message === true && (
               <div
                 className="alert alert-success"
                 style={{

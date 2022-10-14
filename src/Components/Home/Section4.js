@@ -51,7 +51,7 @@ function Section4() {
                     <div className="it-training-second-card-btn">
                       <h6>
                         <a
-                          href="#"
+                          href={() => false}
                           className={"card-" + post.color + "-color"}
                           id={"card-" + index + "-color"}
                         >

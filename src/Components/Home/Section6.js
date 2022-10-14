@@ -27,7 +27,7 @@ function Section6() {
                 <figure>
                   <img
                     src="assets/images/our-achievements.svg"
-                    alt="our-achievements-image"
+                    alt="our-achievements"
                   />
                 </figure>
                 <div className="our-achievement-text">
@@ -57,7 +57,9 @@ function Section6() {
                         <h4
                           className="counter-value"
                           data-count={post.numofdata}
-                        ></h4>
+                        >
+                          <span></span>
+                        </h4>
                         <span>{post.range}</span>
                       </div>
                       <p>{post.title}</p>

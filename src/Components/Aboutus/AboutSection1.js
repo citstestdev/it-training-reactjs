@@ -39,11 +39,11 @@ function AboutSection1() {
                 <h4>{title.replace("-", " ").toUpperCase()}</h4>
               </div>
               <div className="page-banner-links">
-                <a href="index.html">Home</a>
+                <a href="/home">Home</a>
                 <span>
                   <i className="fa-solid fa-chevron-right"></i>
                 </span>
-                <a href="javascript:;">{title}</a>
+                <a href={() => false}>{title}</a>
               </div>
             </div>
           </div>

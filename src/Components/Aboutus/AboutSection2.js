@@ -35,10 +35,7 @@ function AboutSection2() {
                 data-wow-duration="2s"
                 data-wow-delay="0.5s"
               >
-                <img
-                  src="assets/images/about-us-image.jpg"
-                  alt="about-us-image"
-                />
+                <img src="assets/images/about-us-image.jpg" alt="about-us" />
               </figure>
               <div className="ux-course-student-joined">
                 <div
@@ -59,7 +56,7 @@ function AboutSection2() {
                     <h4>Batch starting from</h4>
                   </div>
                   <div className="ux-master-course-btn">
-                    <a href="#">Enroll now</a>
+                    <a href={() => false}>Enroll now</a>
                   </div>
                 </div>
                 <div className="student-joined">
@@ -67,7 +64,7 @@ function AboutSection2() {
                     <div className="student-joined-images">
                       {user.map((u, index) => (
                         <figure>
-                          <a href="#">
+                          <a href={() => false}>
                             <img
                               src={
                                 u.imagemiddile
@@ -76,7 +73,7 @@ function AboutSection2() {
                                     u.imagemiddile
                                   : "/images/user.png"
                               }
-                              alt="our-blogs-image"
+                              alt="our-blogs"
                             />
                           </a>
                         </figure>
@@ -122,7 +119,7 @@ function AboutSection2() {
                   </div>
                 </div>
                 <div className="about-us-btn">
-                  <a href="#" className="site-btn">
+                  <a href={() => false} className="site-btn">
                     View more
                   </a>
                 </div>

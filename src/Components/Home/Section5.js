@@ -43,7 +43,7 @@ function Section5() {
                 </div>
               </div>
               <div className="best-educators-btn">
-                <a href="#" className="site-btn">
+                <a href={() => false} className="site-btn">
                   Read more
                 </a>
               </div>
@@ -55,7 +55,7 @@ function Section5() {
               <figure>
                 <img
                   src="assets/images/best-educators-image.svg"
-                  alt="best-educators-image"
+                  alt="best-educators"
                 />
               </figure>
             </div>

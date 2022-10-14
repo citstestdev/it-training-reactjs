@@ -7,11 +7,11 @@ function DetailSection5(props) {
   const [data, setData] = useState([]);
   const [count, setCount] = useState("");
   const [message, setMessage] = useState(false);
-  const [exits, setExits] = useState(false);
+  // const [exits, setExits] = useState(false);
 
   setTimeout(function () {
     setMessage(false);
-    setExits(false);
+    // setExits(false);
   }, 5000);
 
   const cid = window.location.href.substring(
@@ -82,7 +82,7 @@ function DetailSection5(props) {
                 "uploadimg/400x250/" +
                 props.shortdetail.imagemiddile
               }
-              alt="course-single-image"
+              alt="course-single"
             />
           </figure>
         </div>
@@ -189,7 +189,7 @@ function DetailSection5(props) {
               </div>
             </form>
             <br></br>
-            {message == true && (
+            {message === true && (
               <div
                 className="alert alert-success"
                 style={{

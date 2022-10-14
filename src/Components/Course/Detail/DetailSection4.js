@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 function DetailSection4() {
   return (
@@ -14,7 +14,7 @@ function DetailSection4() {
         <div className="course-related-all-blocks">
           <div className="course-related-blk">
             <figure>
-              <a href="#">
+              <a href={() => false}>
                 <img
                   src="/assets/images/course-related-img-1.jpg"
                   alt="course-related-img-1"
@@ -23,13 +23,13 @@ function DetailSection4() {
             </figure>
             <div className="course-related-text">
               <h4>
-                <a href="#">Into the world of Web Development</a>
+                <a href={() => false}>Into the world of Web Development</a>
               </h4>
             </div>
           </div>
           <div className="course-related-blk">
             <figure>
-              <a href="#">
+              <a href={() => false}>
                 <img
                   src="/assets/images/course-related-img-2.jpg"
                   alt="course-related-img-2"
@@ -38,13 +38,13 @@ function DetailSection4() {
             </figure>
             <div className="course-related-text">
               <h4>
-                <a href="#">Designing the Digital Media & Visuals</a>
+                <a href={() => false}>Designing the Digital Media & Visuals</a>
               </h4>
             </div>
           </div>
           <div className="course-related-blk">
             <figure>
-              <a href="#">
+              <a href={() => false}>
                 <img
                   src="/assets/images/course-related-img-3.jpg"
                   alt="course-related-img-3"
@@ -53,13 +53,13 @@ function DetailSection4() {
             </figure>
             <div className="course-related-text">
               <h4>
-                <a href="#">Basic of Web Development HTML and CSS</a>
+                <a href={() => false}>Basic of Web Development HTML and CSS</a>
               </h4>
             </div>
           </div>
           <div className="course-related-blk">
             <figure>
-              <a href="#">
+              <a href={() => false}>
                 <img
                   src="/assets/images/course-related-img-4.jpg"
                   alt="course-related-img-4"
@@ -68,7 +68,7 @@ function DetailSection4() {
             </figure>
             <div className="course-related-text">
               <h4>
-                <a href="#">Intro of Google Ad Sense and WordPress</a>
+                <a href={() => false}>Intro of Google Ad Sense and WordPress</a>
               </h4>
             </div>
           </div>

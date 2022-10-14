@@ -90,7 +90,7 @@ const renderData = (data, blog, arr) => {
                       <div className="blog-author-info">
                         <div className="blog-author-img">
                           <figure>
-                            <a href="#">
+                            <a href={() => false}>
                               <img
                                 src={
                                   userProfile(arr, post.uid)
@@ -99,7 +99,7 @@ const renderData = (data, blog, arr) => {
                                       userProfile(arr, post.uid)
                                     : "images/user.png"
                                 }
-                                alt="blog-author-image"
+                                alt="blog-author"
                                 width="50px"
                                 height="50px"
                               />
@@ -108,7 +108,9 @@ const renderData = (data, blog, arr) => {
                         </div>
                         <div className="blog-author-name page-medium-heading">
                           <h4 style={{ textTransform: "capitalize" }}>
-                            <a href="#">{userExists(arr, post.uid)}</a>
+                            <a href={() => false}>
+                              {userExists(arr, post.uid)}
+                            </a>
                           </h4>
                         </div>
                       </div>
@@ -121,18 +123,18 @@ const renderData = (data, blog, arr) => {
                 <div className="blog-pager-controls">
                   <div className="pager-controls-content align-center">
                     <div className="courses-pager">
-                      <a href="javascript:;">1</a>
-                      <a href="javascript:;">2</a>
-                      <a href="javascript:;">3</a>
+                      <a href={() => false}>1</a>
+                      <a href={() => false}>2</a>
+                      <a href={() => false}>3</a>
                     </div>
                     <div className="courses-controls">
                       <div className="controls-arrow-left controls-arrow">
-                        <a href="javascript:;">
+                        <a href={() => false}>
                           <i className="fa-solid fa-arrow-left-long"></i>
                         </a>
                       </div>
                       <div className="controls-arrow-right controls-arrow">
-                        <a href="javascript:;">
+                        <a href={() => false}>
                           <i className="fa-solid fa-arrow-right-long"></i>
                         </a>
                       </div>

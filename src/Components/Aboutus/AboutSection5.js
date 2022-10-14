@@ -32,10 +32,9 @@ function AboutSection5() {
                   key={post._id}
                 >
                   <div className="counter-con">
-                    <h4
-                      className="counter-value"
-                      data-count={post.numofdata}
-                    ></h4>
+                    <h4 className="counter-value" data-count={post.numofdata}>
+                      <span></span>
+                    </h4>
                     <span>{post.range}</span>
                   </div>
                   <p>{post.title}</p>

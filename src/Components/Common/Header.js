@@ -169,7 +169,7 @@ function Header() {
                     </ul>
                   </nav>
                   <div className="header-top-mob-view">
-                    <a href="javascript:;" className="top-checklist-icon">
+                    <a href={() => false} className="top-checklist-icon">
                       <i className="fa-solid fa-list-check"></i>
                     </a>
                   </div>

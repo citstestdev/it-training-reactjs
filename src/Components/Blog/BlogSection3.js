@@ -18,7 +18,7 @@ function BlogSection3(props) {
             <div className="recent-courses-tag-content" key={post._id}>
               <div className="recent-courses-tag-img">
                 <figure>
-                  <a href="#">
+                  <a href={() => false}>
                     <img
                       src={
                         post.imagemiddile

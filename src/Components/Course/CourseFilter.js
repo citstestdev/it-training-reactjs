@@ -90,14 +90,14 @@ const renderData = (data) => {
                   ))}
                 </div>
               )}
-              {data == "" && (
+              {/* {data == "" && (
                 <div style={{ textAlign: "center" }}>
                   <h4> Plz Wait...!! </h4>
                 </div>
-              )}
+              )} */}
             </div>
             {/* {dloading && ( */}
-            {data == false && (
+            {data === false && (
               <div style={{ textAlign: "center" }}>
                 <button class="buttonload">
                   <i class="fa fa-refresh fa-spin"></i>Loading
@@ -181,7 +181,7 @@ const renderData = (data) => {
                   <h1 style={{ color: "#ff0000" }}>Not Found!!</h1>
                 </div>
               )}
-              {data == false && (
+              {data === false && (
                 <div style={{ textAlign: "center" }}>
                   <button class="buttonload">
                     <i class="fa fa-refresh fa-spin"></i>Loading
@@ -233,7 +233,7 @@ function CourseFilter(props) {
           key={number}
           id={number}
           onClick={handleClick}
-          className={currentPage == number ? "active" : null}
+          className={currentPage === number ? "active" : null}
         >
           {number}
         </li>
@@ -267,7 +267,7 @@ function CourseFilter(props) {
   const handlePrevbtn = () => {
     setcurrentPage(currentPage - 1);
 
-    if ((currentPage - 1) % pageNumberLimit == 0) {
+    if ((currentPage - 1) % pageNumberLimit === 0) {
       setmaxPageNumberLimit(maxPageNumberLimit - pageNumberLimit);
       setminPageNumberLimit(minPageNumberLimit - pageNumberLimit);
     }
@@ -301,7 +301,7 @@ function CourseFilter(props) {
                     spy={true}
                     smooth={true}
                     onClick={handlePrevbtn}
-                    disabled={currentPage == pages[0] ? true : false}
+                    disabled={currentPage === pages[0] ? true : false}
                   >
                     <i className="fa-solid fa-arrow-left-long"></i>
                   </button>
@@ -316,7 +316,7 @@ function CourseFilter(props) {
                     smooth={true}
                     onClick={handleNextbtn}
                     disabled={
-                      currentPage == pages[pages.length - 1] ? true : false
+                      currentPage === pages[pages.length - 1] ? true : false
                     }
                   >
                     <i className="fa-solid fa-arrow-right-long"></i>

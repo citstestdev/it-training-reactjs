@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useHistory } from "react";
+import React, { useEffect, useState } from "react";
 import backendurl from "../../constant";
 import { Helmet } from "react-helmet";
 

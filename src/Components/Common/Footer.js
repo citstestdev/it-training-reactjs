@@ -13,7 +13,7 @@ function Footer() {
   const [errormsg, setErrormag] = useState(false);
   const [newsmessage, setNewsmessage] = useState(false);
   const [newerrormsg, setNewErrormag] = useState(false);
-  const [news, setNewsdata] = useState(null);
+  // const [news, setNewsdata] = useState(null);
   // const [post, setPost] = React.useState(null);
   const [cat, setCategory] = useState([]);
 
@@ -272,8 +272,8 @@ function Footer() {
                       </div>
                       <div className="keystroke-form-para">
                         <p>
-                          by submitting this form, you are agreeing to the{" "}
-                          <a href="#"> privacy policy</a>
+                          by submitting this form, you are agreeing to the
+                          <a href={() => false}> privacy policy</a>
                         </p>
                       </div>
                       <div className="form-submit-btn">
